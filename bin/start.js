@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-var cli = require('../cli')
+var clik = require('../clik')
 
 var emoji = require('node-emoji')
 
-cli(function (error, server) {
+clik(function (error, server) {
   if (error) {
     throw error
   }
